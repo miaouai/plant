@@ -25,6 +25,9 @@
 
 ## 🚀 快速开始
 
+### 🌐 在线访问（推荐）
+**GitHub Pages**: https://miaouai.github.io/plant/
+
 ### 本地运行
 ```bash
 cd /app/working/mydata/plant
@@ -32,9 +35,6 @@ python3 -m http.server 8080
 ```
 
 然后在浏览器访问：http://localhost:8080
-
-### 部署到 GitHub Pages
-使用 github-api-manager skill 自动部署。
 
 ## 📁 项目结构
 

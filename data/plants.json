@@ -1,0 +1,227 @@
+{
+  "plants": [
+    {
+      "id": "tomato",
+      "name": "番茄",
+      "chineseName": "西红柿",
+      "classification": {"科": "茄科", "属": "茄属"},
+      "suitableTerms": ["惊蛰", "春分", "清明", "谷雨"],
+      "regions": ["全国大部分地区"],
+      "plantingSeason": "春季 3-5 月",
+      "harvestSeason": "夏季 6-9 月",
+      "care": ["喜光温暖", "需支撑架", "定期浇水", "防病虫害"]
+    },
+    {
+      "id": "cucumber",
+      "name": "黄瓜",
+      "classification": {"科": "葫芦科", "属": "黄瓜属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏"],
+      "regions": ["华北", "华东", "华中", "西南"],
+      "plantingSeason": "春季 3-5 月",
+      "harvestSeason": "夏季 5-9 月",
+      "care": ["喜温耐热", "搭架攀爬", "勤浇水", "及时采摘"]
+    },
+    {
+      "id": "lettuce",
+      "name": "生菜",
+      "classification": {"科": "菊科", "属": "莴苣属"},
+      "suitableTerms": ["立春", "雨水", "惊蛰", "春分", "白露", "寒露"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春秋两季",
+      "harvestSeason": "播种后 40-60 天",
+      "care": ["喜凉爽", "疏松土壤", "充足水分", "忌高温"]
+    },
+    {
+      "id": "spinach",
+      "name": "菠菜",
+      "classification": {"科": "藜科", "属": "菠菜属"},
+      "suitableTerms": ["雨水", "惊蛰", "春分", "霜降", "立冬"],
+      "regions": ["全国各地"],
+      "plantingSeason": "早春或深秋",
+      "harvestSeason": "播种后 30-50 天",
+      "care": ["耐寒喜凉", "土壤肥沃", "见干见湿", "生长期短"]
+    },
+    {
+      "id": "carrot",
+      "name": "胡萝卜",
+      "classification": {"科": "伞形科", "属": "胡萝卜属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "白露", "秋分"],
+      "regions": ["北方地区为主"],
+      "plantingSeason": "春季 3-5 月或秋季 8-9 月",
+      "harvestSeason": "播种后 70-100 天",
+      "care": ["喜阳光", "沙壤土最佳", "间苗通风", "深根作物"]
+    },
+    {
+      "id": "radish",
+      "name": "萝卜",
+      "classification": {"科": "十字花科", "属": "萝卜属"},
+      "suitableTerms": ["处暑", "白露", "秋分", "寒露", "霜降"],
+      "regions": ["全国各地"],
+      "plantingSeason": "秋季 8-10 月",
+      "harvestSeason": "播种后 50-70 天",
+      "care": ["凉爽气候", "疏松土壤", "均匀浇水", "防止糠心"]
+    },
+    {
+      "id": "pepper",
+      "name": "辣椒",
+      "classification": {"科": "茄科", "属": "辣椒属"},
+      "suitableTerms": ["惊蛰", "春分", "清明", "谷雨", "立夏"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春季 2-4 月育苗",
+      "harvestSeason": "夏季至秋季",
+      "care": ["喜热耐旱", "阳光充足", "适时摘果", "防治病害"]
+    },
+    {
+      "id": "bean",
+      "name": "四季豆",
+      "classification": {"科": "豆科", "属": "菜豆属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏", "小满"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春季 3-5 月",
+      "harvestSeason": "夏季 6-9 月",
+      "care": ["搭架引蔓", "喜暖怕涝", "及时采嫩荚", "固氮作用"]
+    },
+    {
+      "id": "cabbage",
+      "name": "白菜",
+      "classification": {"科": "十字花科", "属": "芸薹属"},
+      "suitableTerms": ["立秋", "处暑", "白露", "秋分", "寒露"],
+      "regions": ["北方为主"],
+      "plantingSeason": "夏季 6-8 月育苗，8-9 月定植",
+      "harvestSeason": "冬季 10-12 月",
+      "care": ["喜冷凉", "土层深厚", "合理密植", "防冻害"]
+    },
+    {
+      "id": "garlic",
+      "name": "大蒜",
+      "classification": {"科": "石蒜科", "属": "葱属"},
+      "suitableTerms": ["寒露", "霜降", "立冬", "小雪"],
+      "regions": ["北方地区"],
+      "plantingSeason": "秋季 9-11 月",
+      "harvestSeason": "次年夏季 5-6 月",
+      "care": ["耐寒性好", "排水良好", "中耕培土", "遮荫采收"]
+    },
+    {
+      "id": "onion",
+      "name": "洋葱",
+      "classification": {"科": "石蒜科", "属": "葱属"},
+      "suitableTerms": ["白露", "秋分", "寒露", "霜降"],
+      "regions": ["西北地区为主"],
+      "plantingSeason": "秋季 9-10 月",
+      "harvestSeason": "次年夏季 5-6 月",
+      "care": ["需冷春化", "干燥环境", "鳞茎膨大期控水", "易储存"]
+    },
+    {
+      "id": "potato",
+      "name": "土豆",
+      "chineseName": "马铃薯",
+      "classification": {"科": "茄科", "属": "茄属"},
+      "suitableTerms": ["惊蛰", "春分", "清明", "谷雨", "白露"],
+      "regions": ["高海拔地区，西北华北"],
+      "plantingSeason": "春季 2-4 月或秋季 8-9 月",
+      "harvestSeason": "夏末或冬初",
+      "care": ["喜温凉", "疏松土壤", "培土促薯", "忌连作"]
+    },
+    {
+      "id": "corn",
+      "name": "玉米",
+      "classification": {"科": "禾本科", "属": "玉蜀黍属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏", "小满"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春季 3-5 月",
+      "harvestSeason": "秋季 9-10 月",
+      "care": ["强光照", "大肥大水", "去雄增产", "适时收获"]
+    },
+    {
+      "id": "wheat",
+      "name": "小麦",
+      "classification": {"科": "禾本科", "属": "小麦属"},
+      "suitableTerms": ["秋分", "寒露", "霜降", "立冬"],
+      "regions": ["北方地区"],
+      "plantingSeason": "秋季 9-11 月（冬小麦）",
+      "harvestSeason": "次年夏季 5-6 月",
+      "care": ["适时冬灌", "返青追肥", "拔节水肥", "防倒伏"]
+    },
+    {
+      "id": "rice",
+      "name": "水稻",
+      "classification": {"科": "禾本科", "属": "稻属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏", "小满", "芒种"],
+      "regions": ["南方地区"],
+      "plantingSeason": "春季 3-5 月育秧，5-6 月插秧",
+      "harvestSeason": "秋季 9-11 月",
+      "care": ["淹水栽培", "分期施肥", "晒田控旺", "防病虫"]
+    },
+    {
+      "id": "sesame",
+      "name": "芝麻",
+      "classification": {"科": "胡麻科", "属": "芝麻属"},
+      "suitableTerms": ["立夏", "小满", "芒种", "夏至"],
+      "regions": ["黄淮海地区"],
+      "plantingSeason": "春季 4-5 月",
+      "harvestSeason": "秋季 8-9 月",
+      "care": ["喜温好光", "耐旱怕涝", "整枝打杈", "分批采收"]
+    },
+    {
+      "id": "strawberry",
+      "name": "草莓",
+      "classification": {"科": "蔷薇科", "属": "草莓属"},
+      "suitableTerms": ["白露", "秋分", "寒露", "霜降"],
+      "regions": ["全国各地可设施栽培"],
+      "plantingSeason": "秋季 9-10 月",
+      "harvestSeason": "次年春季 4-6 月",
+      "care": ["喜温湿润", "酸性土壤", "疏花疏果", "地膜覆盖"]
+    },
+    {
+      "id": "melon",
+      "name": "甜瓜",
+      "classification": {"科": "葫芦科", "属": "甜瓜属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏"],
+      "regions": ["西北地区著名"],
+      "plantingSeason": "春季 3-4 月",
+      "harvestSeason": "夏季 6-8 月",
+      "care": ["喜光耐热", "大棚栽培", "吊蔓管理", "控水增糖"]
+    },
+    {
+      "id": "watermelon",
+      "name": "西瓜",
+      "classification": {"科": "葫芦科", "属": "西瓜属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏", "小满"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春季 3-5 月",
+      "harvestSeason": "夏季 6-9 月",
+      "care": ["喜温好光", "垄作覆膜", "疏果定蔓", "转色期断水"]
+    },
+    {
+      "id": "chili",
+      "name": "生姜",
+      "classification": {"科": "姜科", "属": "姜属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "立夏"],
+      "regions": ["四川云南为主"],
+      "plantingSeason": "春季 3-4 月",
+      "harvestSeason": "秋季 10-11 月",
+      "care": ["喜阴保湿", "肥沃沙壤", "多次培土", "浅根系"]
+    },
+    {
+      "id": "ginger",
+      "name": "香菜",
+      "chineseName": "芫荽",
+      "classification": {"科": "伞形科", "属": "芫荽属"},
+      "suitableTerms": ["立春", "雨水", "惊蛰", "白露", "寒露"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春秋两季",
+      "harvestSeason": "播种后 25-40 天",
+      "care": ["耐寒喜凉", "浅播盖薄土", "保持湿润", "速生蔬菜"]
+    },
+    {
+      "id": "cilantro",
+      "name": "韭菜",
+      "classification": {"科": "石蒜科", "属": "葱属"},
+      "suitableTerms": ["春分", "清明", "谷雨", "白露", "寒露"],
+      "regions": ["全国各地"],
+      "plantingSeason": "春季 3-5 月或秋季 8-9 月",
+      "harvestSeason": "多年采收",
+      "care": ["多年生", "耐割喜肥", "韭黄需遮光", "易种植"]
+    }
+  ]
+}

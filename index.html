@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌱 二十四节气种植推荐</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部标题 -->
+        <header class="header">
+            <h1>🌱 二十四节气种植推荐</h1>
+            <p class="subtitle">顺应天时，科学种植</p>
+        </header>
+
+        <!-- 模块一：时间与节气显示 -->
+        <section class="section time-section">
+            <h2><span class="section-icon">⏰</span>当前时间与节气</h2>
+            <div class="time-card">
+                <div id="currentDateTime" class="datetime-display">加载中...</div>
+                <div id="lunarDate" class="lunar-date">农历：计算中...</div>
+                <div class="term-info-box">
+                    <div id="currentTerm" class="current-term">
+                        <h3>当前节气：<span class="term-name">加载...</span></h3>
+                        <p class="term-desc"></p>
+                    </div>
+                    <div id="nextTermCountdown" class="next-term-countdown">
+                        <p>下一个节气倒计时：<span class="countdown-time">--</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 模块二：当季植物推荐 -->
+        <section class="section plants-section">
+            <h2><span class="section-icon">🥬</span>本季适合种植</h2>
+            <div id="seasonalPlants" class="plants-grid">
+                <div class="loading">正在加载种植推荐...</div>
+            </div>
+        </section>
+
+        <!-- 模块三：二十四节气百科 -->
+        <section class="section terms-section">
+            <h2><span class="section-icon">📚</span>二十四节气百科</h2>
+            <div id="termsGrid" class="terms-grid">
+                <!-- 动态生成节气卡片 -->
+            </div>
+        </section>
+
+        <!-- 节气详情模态框 -->
+        <div id="termModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+
+        <!-- 植物详情模态框 -->
+        <div id="plantModal" class="modal">
+            <div class="modal-content plant-modal-content">
+                <span class="close-btn">&times;</span>
+                <div id="plantModalContent"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>🌱 顺应二十四节气，科学种植收获更多 | 喵有爱出品</p>
+        </footer>
+    </div>
+
+    <!-- 极简农历转换模块 v1.0 -->
+    <script src="lunar-simple.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
